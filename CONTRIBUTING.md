@@ -26,7 +26,7 @@ The core team is monitoring for pull requests. We will review your pull request 
 
 ### Development Workflow
 
-After cloning kong-plugin-proxy-cache, run `make create-virtualmachine` to build the virtual machine. Then, you can run several commands:
+After cloning kong-plugin-redis-proxy-cache, run `make create-virtualmachine` to build the virtual machine. Then, you can run several commands:
 
 * `make help` show the help
 * `make test` runs tests for Kong Plugin
@@ -35,4 +35,4 @@ After cloning kong-plugin-proxy-cache, run `make create-virtualmachine` to build
 
 ## License
 
-By contributing to kong-plugin-proxy-cache, you agree that your contributions will be licensed under its [MIT license](./LICENSE).
+By contributing to kong-plugin-redis-proxy-cache, you agree that your contributions will be licensed under its [MIT license](./LICENSE).

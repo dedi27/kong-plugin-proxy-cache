@@ -1,5 +1,5 @@
 <h3 align="center">
-  kong-plugin-proxy-cache
+  kong-plugin-redis-proxy-cache
 </h3>
 
 <p align="center">
@@ -26,7 +26,7 @@ Configure this plugin on a Service by making the following request:
 
 ```shell
 $ curl -X POST http://kong:8001/services/debug-upstream/plugins \
-    --data "name=proxy-cache" \
+    --data "name=redis-proxy-cache" \
     --data "config.cache_ttl=300" \
     --data "config.redis.host=127.0.0.1"
 ```
@@ -75,7 +75,7 @@ $ luarocks install kong-plugin-proxy-cache
 ### From GitHub
 
 ```shell
-$ sh -c "git clone https://github.com/globocom/kong-plugin-proxy-cache /tmp/kong-plugin-proxy-cache && cd /tmp/kong-plugin-proxy-cache && luarocks make *.rockspec"
+$ sh -c "git clone https://github.com/dedi27/kong-plugin-proxy-cache.git /tmp/kong-plugin-redis-proxy-cache && cd /tmp/kong-plugin-redis-proxy-cache && luarocks make *.rockspec"
 ```
 
 ## Contributing
